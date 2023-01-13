@@ -1,0 +1,24 @@
+body{
+	background-color: white;
+}
+header li{
+	list-style: none;
+	} 
+a:link, a:visited {
+	text-decoration: none;
+	display: inline-block;
+	background-color: yellow;
+	border: 0px;
+	text-align: center;
+	margin-bottom: 1px;
+	width: 50px;
+	color: black;
+}
+a:hover, a:active{
+	background-color: blue;
+	color: white;
+}
+footer{
+	background-color: black;
+	color: white;
+}
