@@ -6,19 +6,40 @@ header li{
 	} 
 a:link, a:visited {
 	text-decoration: none;
+	list-style-type: none;
 	display: inline-block;
 	background-color: yellow;
 	border: 0px;
 	text-align: center;
 	margin-bottom: 1px;
-	width: 50px;
+	width: 100px;
 	color: black;
 }
 a:hover, a:active{
 	background-color: blue;
 	color: white;
 }
-footer{
-	background-color: black;
-	color: white;
+div.A {
+	height: 120%;
+	width: 95%;
+	padding: 25px;
+	text-align: justify;
+	background-color: cyan;
+}
+div.B {
+	height: 120%;
+	width: 95%;
+	padding: 25px;
+	text-align: justify;
+	background-color: gray;
+}
+div.C {
+	height: 120%;
+	width: 95%;
+	padding: 25px;
+	text-align: justify;
+	background-color: seagreen;
+}
+footer li{
+	list-style: none;
 }
